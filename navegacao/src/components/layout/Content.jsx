@@ -13,8 +13,7 @@ const Content = props => {
       <Routes>
         <Route path="/about" element={<About />} />
         <Route path="/param/:id" element={<Param />} />
-        <Route path="/param:id" element={<Param />} />
-        <Route path="/" exact element={<Home />} />
+        <Route exact path="/" element={<Home />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
     </main>
@@ -22,3 +21,8 @@ const Content = props => {
 };
 
 export default Content;
+
+// eslint-disable-next-line no-lone-blocks
+{
+  /* 'exact path="/"' o exact define a rota especifica, se não toda rota acaba parando no path=/ */
+}
