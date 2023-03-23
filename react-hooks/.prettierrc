@@ -1,5 +1,6 @@
 {
   "bracketSpacing": true,
   "singleAttributePerLine": false,
-  "arrowParens": "avoid"
+  "arrowParens": "avoid",
+  "semi": false
 }
