@@ -3,13 +3,7 @@ import PageTitle from "../../components/layout/PageTitle"
 import SectionTitle from "../../components/layout/SectionTitle"
 
 const merge = function (s1, s2) {
-  let mergedStr = ""
-
-  for (let i = 0; i < s1.length; i++) {
-    if (s1[i]) mergedStr += s1[i]
-    if (s2[i]) mergedStr += s2[i]
-  }
-  return mergedStr
+  return [...s1].map((el, i) => `${el}${s2[i] || ""}`).join("")
 }
 
 const UseRef = props => {
