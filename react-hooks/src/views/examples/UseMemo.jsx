@@ -3,7 +3,7 @@
 Um valor que foi calculado e armazenado e vai retornar como se fosse um cache de memória
 */
 
-import React, { useEffect, useMemo, useState } from "react"
+import React, { useMemo, useState } from "react"
 import PageTitle from "../../components/layout/PageTitle"
 
 function sum(a, b) {
