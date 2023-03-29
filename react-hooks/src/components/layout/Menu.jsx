@@ -1,7 +1,7 @@
-import "./Menu.css";
-import React from "react";
+import "./Menu.css"
+import React from "react"
 
-import { Link } from "react-router-dom";
+import { Link } from "react-router-dom"
 
 const Menu = props => {
   return (
@@ -33,12 +33,15 @@ const Menu = props => {
             <Link to="/useReducer">useReducer()</Link>
           </li>
           <li>
+            <Link to="/DesafioReducer">DesafioReducer()</Link>
+          </li>
+          <li>
             <Link to="/useCustom">useMyHook()</Link>
           </li>
         </ul>
       </nav>
     </aside>
-  );
-};
+  )
+}
 
-export default Menu;
+export default Menu
