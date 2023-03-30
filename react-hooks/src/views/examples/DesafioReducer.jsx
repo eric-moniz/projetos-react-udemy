@@ -2,7 +2,7 @@ import React, { useReducer } from "react"
 import PageTitle from "../../components/layout/PageTitle"
 
 const initialState = {
-  number: 1,
+  number: 0,
 }
 
 function reducer(state, action) {
