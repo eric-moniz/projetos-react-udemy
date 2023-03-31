@@ -42,3 +42,8 @@ body {
 .mt {
     margin-top: 10px;
 }
+
+.lista-estados li {
+    list-style: none;
+    text-align: left;
+}
