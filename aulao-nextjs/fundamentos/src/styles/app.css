@@ -1,0 +1,14 @@
+:root {
+    --font-mono: ui-monospace, Menlo, Monaco, 'Cascadia Mono', 'Segoe UI Mono',
+        'Roboto Mono', 'Oxygen Mono', 'Ubuntu Monospace', 'Source Code Pro',
+        'Fira Mono', 'Droid Sans Mono', 'Courier New', monospace;
+}
+
+html,
+body {
+    padding: 0;
+    margin: 0;
+    background-color: #222;
+    color: #eee;
+    font-family: var(--font-mono);
+}
