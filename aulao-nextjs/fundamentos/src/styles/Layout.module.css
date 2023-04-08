@@ -25,9 +25,14 @@
     transition: all 0.25s;
 }
 
+.cabecalho a:hover {
+    transform: translateY(-3px);
+}
+
 .cabecalho a:active {
-    box-shadow: none;
+    transform: translateY(-3px);
     transform: scale(0.95);
+    box-shadow: none;
 }
 
 .conteudo {
