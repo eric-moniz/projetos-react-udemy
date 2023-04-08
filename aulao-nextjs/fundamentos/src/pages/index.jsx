@@ -18,6 +18,11 @@ export default function inicio(props) {
                 texto='JSX'
                 cor='crimson'
             />
+            <Navegador
+                destino='/navegacao'
+                texto='Navegação #01'
+                cor='darkgray'
+            />
         </div>
     );
 }
