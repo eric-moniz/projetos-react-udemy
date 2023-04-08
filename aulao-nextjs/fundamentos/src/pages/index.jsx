@@ -28,6 +28,11 @@ export default function inicio(props) {
                 texto='Navegação #02'
                 cor='darkgreen'
             />
+            <Navegador
+                destino='/estado'
+                texto='Componente com Estado'
+                cor='darkblue'
+            />
         </div>
     );
 }
