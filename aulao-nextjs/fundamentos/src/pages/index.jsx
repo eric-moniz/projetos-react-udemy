@@ -23,6 +23,11 @@ export default function inicio(props) {
                 texto='Navegação #01'
                 cor='darkgray'
             />
+            <Navegador
+                destino='/cliente/sp-2/1234'
+                texto='Navegação #02'
+                cor='darkgreen'
+            />
         </div>
     );
 }
