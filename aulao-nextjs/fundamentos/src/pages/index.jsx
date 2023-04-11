@@ -33,6 +33,11 @@ export default function inicio(props) {
                 texto='Componente com Estado'
                 cor='darkblue'
             />
+            <Navegador
+                destino='/integracao_1'
+                texto='Integração com API #01'
+                cor='tomato'
+            />
         </div>
     );
 }
