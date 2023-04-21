@@ -38,6 +38,11 @@ export default function inicio(props) {
                 texto='Integração com API #01'
                 cor='tomato'
             />
+            <Navegador
+                destino='/estatico'
+                texto='Conteudo Estático'
+                cor='#fa054a'
+            />
         </div>
     );
 }
